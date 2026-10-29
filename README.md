@@ -57,27 +57,6 @@ SQLite is used to store application data, while SQLAlchemy manages database oper
 - PyPDF2
 - PDF-based HR policy documents
 
-## Project Structure
-
-HR-Knowledge-Agent/
-├── frontend/
-│ ├── src/
-│ ├── public/
-│ ├── package.json
-│ └── vite.config.js
-├── backend/
-│ ├── hr_docs/
-│ ├── faiss_index/
-│ ├── main.py
-│ ├── ingest.py
-│ ├── database.py
-│ ├── models.py
-│ └── requirements.txt
-├── .gitignore
-└── README.md
-
-The exact filenames and additional folders may vary depending on the implementation.
-
 ## How It Works
 
 1. The employee enters an HR-related question through the React interface.
